@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image"
+        android:layout_centerVertical="true"
+        android:text="Capture a Video" 
+        android:background="@drawable/serverdev"/>
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="Shoot an Image"
+        android:background="@drawable/serverdev" />
+  
+</RelativeLayout>

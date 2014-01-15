@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Photint Eye</string>
+    <string name="hello_world">testing</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <string name="crop">Please, wait for few seconds."\n"Image convertion is in progress...</string>
+<string name="video">Video correction in progress…..</string>
+</resources>
